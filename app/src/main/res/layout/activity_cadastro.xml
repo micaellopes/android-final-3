@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:background="#E4E4E4"
+    tools:context="br.unipe.borracheiro.borracheiro.Login"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/borracheiro"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_name"
+        android:textSize="10pt"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:fontFamily="serif"
+        android:text="Cadastrar como:"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btCliente"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@color/corBotao"
+        android:text="Cliente" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/btBorracheiro"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@color/corBotao"
+        android:text="Borracheiro" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:id="@+id/btVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="@color/corBotao"
+        android:text="Voltar" />
+
+</LinearLayout>

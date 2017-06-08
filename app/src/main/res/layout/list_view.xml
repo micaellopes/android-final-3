@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="teste"
+        android:id="@+id/txt_label"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_ligar"
+        android:layout_weight="0"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/btn_ver_mapa"
+        android:layout_weight="0"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Localizacao"
+        android:textSize="10dp"/>
+
+</LinearLayout>
